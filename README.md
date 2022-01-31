@@ -1,0 +1,2 @@
+# Narrenbaum-stellen
+Digitale Narrenbaumstellen
