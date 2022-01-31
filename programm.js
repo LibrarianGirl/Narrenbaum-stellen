@@ -7,7 +7,7 @@
 	//	document.getElementById("btn").disabled = false;}
 //	</script>
 
-  <img id="img" src="https://via.placeholder.com/350x150.png" />
+  <img id="img" src="Narrenbaum.png" />
   <button onClick="rotateImg()" id="btn" >Rotate Image</button>
 
   <script>
