@@ -11,19 +11,21 @@
 
    
 <body>
-
+	<h2> Digitales Narrenbaum stellen der ZNG </h2>
+	
+	<p> Klicke den Button um den Narrenbaum aufzustellen </p>
 
   <img id="img" src="Narrenbaum.png" />
   <button onClick="rotateImg()" id="btn" >Rotate Image</button>
 
   <script>
-    let rotation = -90;
+    let rotation = 0;
     function rotateImg() {
     
-      rotation += 10; // add 90 degrees, you can change this as you want
-      if (rotation === 0) { 
+      rotation += -10; // add 90 degrees, you can change this as you want
+      if (rotation === -90) { 
         // 90 means rotate back to 0
-        rotation = -90;
+        rotation = 0;
       }
       document.querySelector("#img").style.transform = `rotate(${rotation}deg)`;
      document.getElementById("btn").disabled = true;
